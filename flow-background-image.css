@@ -1,0 +1,45 @@
+/**************************
+Intro:
+This snippet should be added to the header of the flow player, just under the title and above the .mw-bs .wait-container selector. 
+
+Additionally you'll need to add the .body-wrapper class to the body tag of the player. 
+I.e. the default: <body style="height: 100%;"> 
+becomes: <body class="body-wrapper" style="height: 100%;">
+
+Outstanding work by Boomi consultant Matt Norton on generating this snippet. Thanks Matt!
+**************************/
+
+/*************************Sets background image*************************/
+.mw-bs {
+	background-color:transparent !important; /*Makes default background transparent*/
+}
+
+.body-wrapper {
+	background-size: cover;
+	background-image: url('https://files-manywho-com.s3.amazonaws.com/8dbef8a1-0fdc-4293-827c-7f905a2f3f4c/Capetta_FINAL2.jpg');
+	/* Background images impact load time the recommended practice is to use images less than 100kb. https://tinypng.com/ is not an official Boomi partner but some of our front end folks have mentioned having good success with it. The image can be uploaded to your flow assets folder as convenient hosting (flow assets should not be used for sensitive assets). You might also consider base64 encoding the image rather than using a URL as is done here */
+	background-attachment: fixed;
+	/* Fixes the bg image to the background */
+	background-position: center;
+	/* Absolute center */
+	height:100%;
+	/* Keep in case VH is not supported */
+	height: 100vh;
+	/* Height 100 veiwport height + mobile */
+	/
+}
+
+/*************************Sets opacity on background image*************************/
+.body-wrapper:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: linear-gradient(141deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(255,255,255,0.5) 75%);
+	/* Gradient for the overlay NOTE RGBA (the A stands for alpha 0.1 to 1 */
+
+}
+
+/*************************End background image addition*************************/
