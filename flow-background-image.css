@@ -6,12 +6,12 @@ Additionally you'll need to add the .body-wrapper class to the body tag of the p
 I.e. the default: <body style="height: 100%;"> 
 becomes: <body class="body-wrapper" style="height: 100%;">
 
-Outstanding work by Boomi consultant Matt Norton on generating this snippet. Thanks Matt!
+Outstanding work by Boomi consultant Matt Norton on generating this snippet, and the useful comments interspersed. Thanks Matt!
 **************************/
 
 /*************************Sets background image*************************/
 .mw-bs {
-	background-color:transparent !important; /*Makes default background transparent*/
+	background-color:transparent !important; /* Makes default background transparent, allowing the background declared in this snippet to show through */
 }
 
 .body-wrapper {
