@@ -26,7 +26,6 @@ Outstanding work by Boomi consultant Matt Norton on generating this snippet. Tha
 	/* Keep in case VH is not supported */
 	height: 100vh;
 	/* Height 100 veiwport height + mobile */
-	/
 }
 
 /*************************Sets opacity on background image*************************/
@@ -38,7 +37,7 @@ Outstanding work by Boomi consultant Matt Norton on generating this snippet. Tha
 	top: 0;
 	bottom: 0;
 	background: linear-gradient(141deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(255,255,255,0.5) 75%);
-	/* Gradient for the overlay NOTE RGBA (the A stands for alpha 0.1 to 1 */
+	/* Gradient for the overlay */
 
 }
 
