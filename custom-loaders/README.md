@@ -22,7 +22,4 @@ Copy CSS from ```css/style.css```
 ## Usage
 Custom player loaders for [Dell Boomi Flow](https://boomi.com/platform/flow/)
 
-## Support
-
-Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new) for support.
 
