@@ -12,8 +12,10 @@ Custom page loaders for Dell Boomi Flow.
 ## Installation
 
 Copy the HTML within the body tag from ```index.html```
+
 Copy CSS from ```css/style.css```
 ```SCSS``` added for context 
+
 
 .SCSS added for context 
 
