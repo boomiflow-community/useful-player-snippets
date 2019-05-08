@@ -162,19 +162,19 @@ $logo: "https://files-manywho-com.s3.amazonaws.com/5a98a1f9-d884-4d1b-8fa3-c9843
 
 }
 @keyframes trailAnimation {
-	from {
+	0% {
 		transform: rotateZ(0deg);
 	}
-	to {
+	100% {
 		transform: rotateZ(360deg);
 	}
 }
 
 @keyframes particleAnimation {
-	from {
+	0% {
 		transform: rotateX(90deg) rotateY(0deg);
 	}
-	to {
+	100% {
 		transform: rotateX(90deg) rotateY(-360deg);
 	}
 }
