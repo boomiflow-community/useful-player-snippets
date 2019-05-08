@@ -1,13 +1,13 @@
-# README Boilerplate
+# About
 
 Custom page loaders for Dell Boomi Flow. 
 
 ## Table of Contents
 <!-- - [Atom Loader]() -->
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Support](#support)
+ <!-- - - [Table of Contents](#table-of-contents)  -->
+  <!--  - [Installation](#installation)  -->
+  <!--   - [Usage](#usage)  -->
+  <!--   - [Support](#support)  -->
 
 ## Installation
 
