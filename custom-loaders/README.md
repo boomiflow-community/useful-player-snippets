@@ -1,6 +1,6 @@
 # About
 
-Custom page loaders for Dell Boomi Flow. 
+ Custom page loaders for Dell Boomi Flow. 
 
 ## Table of Contents
 <!-- - [Atom Loader]() -->
@@ -18,6 +18,8 @@ Copy CSS from ```css/style.css```
 
 
 .SCSS added for context 
+
+Clone from Master branch if you would like to contribute 
 
 ## Usage
 Custom player loaders for [Dell Boomi Flow](https://boomi.com/platform/flow/)
